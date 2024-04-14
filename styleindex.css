@@ -1,0 +1,35 @@
+.main-section {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.book-offer {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.book {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.book h3 {
+    margin-top: 0;
+}
+
+.reserve-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.reserve-btn:hover {
+    background-color: #45a049;
+}
+

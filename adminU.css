@@ -1,0 +1,51 @@
+/* Základní stylizace tabulky */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
+
+/* Stylizace odkazů pro editaci a smazání */
+.styled-table a {
+    text-decoration: none;
+    color: #333;
+}
+
+.styled-table a:hover {
+    color: #555;
+}
+
+/* Úprava tlačítek pro editaci a smazání */
+.styled-table img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Stylizace střídání barev sloupců */
+.styled-table tr:nth-child(even) td {
+    background-color: #f9f9f9; /* Barva A pro sudé řádky */
+}
+
+.styled-table tr:nth-child(odd) td {
+    background-color: #e6e6e6; /* Barva B pro liché řádky */
+}
+
+/* Stylizace pro jednotlivé stavy dostupnosti knih */
+.styled-table td[data-dostupnost="Vyprodáno"] {
+    background-color: #ffcccc; /* Světle červená pro stav "Vyprodáno" */
+}
+
+.styled-table td[data-dostupnost="Na objednání"] {
+    background-color: #ffd699; /* Světle oranžová pro stav "Na objednání" */
+}
